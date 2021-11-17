@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4310F4372743ED8A006EBBFB /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4310F4362743ED89006EBBFB /* CircleGroupView.swift */; };
+		434B95D6274481BC00F2175B /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434B95D5274481BC00F2175B /* AudioPlayer.swift */; };
 		435B1E722741E54A00906ABE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B1E712741E54A00906ABE /* OnboardingView.swift */; };
 		435B1E742741E55000906ABE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B1E732741E55000906ABE /* HomeView.swift */; };
 		437FDD7627417228008366C8 /* RestartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437FDD7527417228008366C8 /* RestartApp.swift */; };
@@ -16,10 +17,12 @@
 		437FDD7D27417229008366C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437FDD7C27417229008366C8 /* Preview Assets.xcassets */; };
 		437FDD852741736B008366C8 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 437FDD832741736B008366C8 /* success.m4a */; };
 		437FDD862741736B008366C8 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 437FDD842741736B008366C8 /* chimeup.mp3 */; };
+		43DA8FF12743FEA600B28787 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA8FF02743FEA600B28787 /* DateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4310F4362743ED89006EBBFB /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		434B95D5274481BC00F2175B /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		435B1E702741E3FA00906ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		435B1E712741E54A00906ABE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		435B1E732741E55000906ABE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		437FDD7C27417229008366C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		437FDD832741736B008366C8 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		437FDD842741736B008366C8 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		43DA8FF02743FEA600B28787 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		437FDD8827417C0B008366C8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				434B95D5274481BC00F2175B /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				437FDD7727417228008366C8 /* ContentView.swift */,
 				435B1E712741E54A00906ABE /* OnboardingView.swift */,
 				435B1E732741E55000906ABE /* HomeView.swift */,
+				43DA8FF02743FEA600B28787 /* DateView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -188,11 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43DA8FF12743FEA600B28787 /* DateView.swift in Sources */,
 				4310F4372743ED8A006EBBFB /* CircleGroupView.swift in Sources */,
 				435B1E722741E54A00906ABE /* OnboardingView.swift in Sources */,
 				435B1E742741E55000906ABE /* HomeView.swift in Sources */,
 				437FDD7827417228008366C8 /* ContentView.swift in Sources */,
 				437FDD7627417228008366C8 /* RestartApp.swift in Sources */,
+				434B95D6274481BC00F2175B /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
